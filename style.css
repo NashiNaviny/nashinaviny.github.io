@@ -3,53 +3,63 @@ body, h1, h2, h3, h4, p, a {
   font-size: 100%;
   font-weight: normal;
 }
-
+*{
+  box-sizing: border-box; 
+}
 body {
   font-family: 'Times new roman', sans-serif;
 }
 
-header {
-  height: 30vh;
-  background-color: #eee;
+.header {
+  height: 50vh;
+  background-color: white;
   background-image: url(flag.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
 }
 
-h1 {
-  font-size: 60px;
+.header-title {
+  font-size: 140px;
   color: white;
+  
   font-weight: 500;
   margin: auto;
 }
-td{
-	padding: 15px;
-}
-.logo{
- width: 20%;
-  height: 90%;
-  float: left;
-  
-}
+
 .overlay {
   width: 100%;
   height: 100%;
- display: flex;
   
+  display: flex;
+}
+.logo{
+ width: 20%;
+  height: 60%;
+  float: left;
+  display: flex;
+  margin: auto;
+}
+.content{
+  font-size: 0;
+  width: 790px;
+ margin: 100px auto 50px; 
 }
 .card{
- width: 250px;
- height: 400px;
- float: left;
- background-color: #e3f3ff;
- margin: 0 20px 100px 20px;
- padding: 10px;
+ width: 350px;
+ margin-bottom: 60px;
+ padding: 45px 45px 70px 45px;
+ display: inline-block;
+ margin-right: 90px;
+ box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+}
+.no-right-margin{
+  margin-right: 0;
 }
 .card-title{
   font-size: 24px;
   font-weight: 500;
-  margin: 0;
+  margin-bottom: 10px;
 }
 .card-text{
   font-size: 16px;
@@ -57,6 +67,16 @@ td{
 .card-image{
    width: 100%;
   height: 100%;
-  margin: 0;
+  margin-bottom: 25px;
   
+}
+.footer{
+  height: 300px;
+  background-color: black;
+  display: flex;
+}
+.footer-author{
+  color: white;
+  font-size: 24px;
+  margin: auto;
 }
