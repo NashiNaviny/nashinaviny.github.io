@@ -8,6 +8,10 @@ body, h1, h2, h3, h4, p, a {
 }
 body {
   font-family: 'Times new roman', sans-serif;
+  image-rederring: -moz-crip-edges;
+  -ms-interpolation-mod: nearest-neighbor;
+  image-redering: crip-edges;
+  display: flex;
 }
 
 .header {
@@ -17,12 +21,13 @@ body {
   background-size: cover;
   background-position: center;
   text-align: center;
+  display: flex;
 }
 
 .header-title {
   font-size: 50px;
   color: red;
-  
+  display: flex;
   font-weight: 500;
   margin: auto;
 }
@@ -80,4 +85,5 @@ body {
   color: white;
   font-size: 24px;
   margin: auto;
+  display: flex;
 }
