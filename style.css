@@ -20,7 +20,7 @@ body {
   width: 750px;
   padding: 45px 45px 70px 45px;
   display: inline-block;
-  margin: 0 450px 0 450px;
+  margin: 0 0 0 450px;
 }
 
 .header-title {
@@ -80,7 +80,7 @@ body {
   width: 750px;
   padding: 45px 45px 70px 45px;
   display: inline-block;
-  margin: 0 450px 0 450px;
+  margin: 0 0 0 450px;
   }
 .footer-author{
   color: white;
